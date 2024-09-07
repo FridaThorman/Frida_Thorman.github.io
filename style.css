@@ -1,0 +1,324 @@
+  header {
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: aliceblue;
+      position: fixed;
+      width: 100%;
+      height: 90px;
+
+  }
+
+  .logo img {
+      width: 200px;
+      height: 90px;
+      
+
+  }
+
+
+
+  header ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+
+
+
+  }
+
+  a {
+      text-decoration: none;
+      width: max-content;
+  }
+
+  header ul li {
+      margin: 30px;
+      text-decoration: none;
+      justify-content: flex-end;
+      align-items: flex-end;
+      border-radius: 3px;
+
+  }
+
+  a:hover {
+      background-color: rgb(225, 220, 220);
+      transition: 0.5s;
+  }
+
+  .toggle {
+      color: aquamarine;
+      background: none;
+      border: none;
+      font-size: 30px;
+      padding: 0 20px;
+      line-height: 60px;
+      display: none;
+  }
+
+  .carrucel {
+      width: 100%;
+      padding: 90px 0px 0;
+  }
+
+  .lider {
+      display: flex;
+      flex-direction: row;
+      margin-top: 90px;
+  }
+
+  .lidertexto {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      margin: 20px;
+      width: 60%;
+      font-size: 20px;
+  }
+
+  h1 {
+      font-size: 40px;
+      color: rgb(11, 11, 130);
+  }
+
+  h2 {
+      font-weight: 700;
+  }
+
+  .amplia {
+      display: flex;
+      flex-direction: row-reverse;
+  }
+
+  .ampliatexto {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      margin: 10px;
+      width: 60%;
+      font-size: 20px;
+      text-align: left;
+      margin-bottom: 70px;
+  }
+
+  img {
+      width: 450px;
+      height: 600px;
+  }
+
+  .fiscales {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .fiscaltexto {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 90px;
+      margin-left: 20px;
+      margin-bottom: 50px;
+      font-size: 20px;
+  }
+
+  .imagenfiscal {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 70px;
+      width: 400px;
+      height: 350;
+      margin-left: 25px;
+  }
+
+  .nosotros {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(95, 95, 180);
+    list-style: none;
+    align-items: center;
+}
+
+.pie p {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: left; 
+}
+
+  @media(max-width:768px) {
+      body {}
+
+      header {
+          height: 85px;
+          width: 100%;
+      }
+
+
+
+      .logo img {
+          width: 60%;
+          height: 55%;
+          margin-left: 10px;
+      }
+
+
+
+      nav ul {
+
+          flex-direction: column;
+          background-color:rgb(198, 234, 222);
+          position: fixed;
+          left: 0px;
+          top: 75px;
+          width: 100%;
+          padding: 0%;
+          left: 100%;
+          transition: left;
+
+      }
+      .nav-ul_visible
+      {
+        left: 0;
+      }
+
+      header ul li {
+          margin: 15px;
+          text-decoration: none;
+          border-radius: 3px;
+          font-size: 11px;
+
+
+      }
+
+
+      a:hover {
+          background-color: rgb(236, 227, 227);
+          transition: 0.5s;
+
+      }
+
+
+      .toggle {
+          color: aquamarine;
+          background: none;
+          border: none;
+          font-size: 25px;
+          padding: 0 20px;
+          line-height: 40px;
+          display:block;
+          margin-top: 5px;
+          cursor: pointer;
+          
+
+      }
+
+      .carrucel {
+          width: 100%;
+          margin-top: 0;
+
+      }
+
+      .lider {
+          display: flex;
+          flex-direction: column;
+          margin-top: 90px;
+      }
+
+      .lidertexto {
+          display: flex;
+          flex-direction: column;
+          justify-content: left;
+          margin-left: 60px;
+          width: 60%;
+          font-size: 12px;
+      }
+
+      h1 {
+          font-size: 20px;
+          color: rgb(11, 11, 130);
+      }
+
+      h2 {
+          font-weight: 800;
+      }
+
+      .amplia {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .ampliatexto {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-left: 60px;
+          margin-top: 35px;
+          width: 60%;
+          font-size: 12px;
+          text-align: left;
+      }
+
+      img {
+          width: 350px;
+          height: 400px;
+          width: 100%;
+
+      }
+
+      .fiscales {
+          display: flex;
+          flex-direction: column;
+          justify-content: left;
+          text-align: left;
+      }
+
+      .fiscaltexto {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-left: 60px;
+          margin-top: 30px;
+          width: 60%;
+          font-size: 12px;
+          text-align: left;
+      }
+
+      .imagenfiscal {
+          display: flex;
+          flex-direction: column;
+        margin-left: 2px;
+          width: 100%;
+      }
+
+      footer {
+          display: flex;
+          flex-direction: column;
+          align-content: center;
+          background-color: rgb(95, 95, 180);
+          list-style: none;
+      }
+
+
+
+
+      .pie p {
+          display: flex;
+          flex-direction: column;
+          width: 80%;
+          font-size: 12px;
+          color: aliceblue;
+          text-align: left;
+
+      }
+
+
+  }
